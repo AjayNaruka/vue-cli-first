@@ -1,8 +1,9 @@
 <template>
-  <div class="carousel-container">
-    <i class="fas fa-arrow-left"></i>
-    <div class="slide"></div>
-    <i class="fas fa-arrow-right"></i>
+  <div class="jumbotron">
+    <div class="square">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam fugiat quas blanditiis eos nemo tempore atque, neque similique, modi voluptate consectetur debitis officia unde non nulla enim, nobis ullam. Iste.
+    </div>
+    <div class="square">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis temporibus veritatis repudiandae deserunt nesciunt eius earum voluptas excepturi molestiae quae dolor, quasi dolores quibusdam, est voluptates, eos aut nulla eligendi!</div>
   </div>
 </template>
 
@@ -14,21 +15,21 @@ export default {
 
 <style>
 
-  .carousel-container{
-  height: 500px;
-  width: 100%;
-  background-color: red;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  .jumbotron{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    width:100%;
+    background-color:red;
+    background-image: url('../assets/mountain.jpg');
+    background-size: cover;
   }
-  .slide{
-    width: 60%;
-    height: 90%;
+  .square{
+    width: 50%;
+    padding: 20px;
     background-color: blue;
-  }
-  i{
-    margin:0 10px
+    margin: 0 25px;
   }
 
 </style>

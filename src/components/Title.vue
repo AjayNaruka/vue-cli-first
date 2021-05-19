@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Title</h1>
+    <h1>La mia prima app con Vue CLI</h1>
   </div>
 </template>
 
@@ -10,6 +10,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+  h1{
+    text-align: center;
+  }
 </style>
